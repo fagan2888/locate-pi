@@ -5,7 +5,7 @@ Seamlessly SSH to a Raspberry Pi at home, or any other server
 without a static IP or DNS. Your pi periodically saves its IP address
 to a remote, static host, so you always know where it is.
 
-# Setup
+## Setup
 
 1. Set the environment variable `IP_DEST`, which should be a valid
 destination for SCP, e.g., add the following to your `~/.bashrc`:
